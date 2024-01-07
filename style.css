@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/*header area style here*/
+header{
+    background-image: url("images/banner/banner3.png");
+    background-size: cover;
+    padding-bottom: 0px;
+}
+header:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.header-content h1{
+    margin-top: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header-content p{
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.header-content button{
+    color: #005FAC;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 510px;
+    padding: 20px 25px;
+    margin-top: 20px;
+}
+.header-content {
+    width: 50%;
+    float: right;
+    margin-top: 200px;
+    margin-right: 150px;
+    padding-bottom: 30px;
+}
+
+
+/*section area here*/
+.section-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-top-image{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.section-top-content{
+    margin-top: 150px;
+    margin-right: 100px;
+}
+.section-top-content h1{
+    color:#151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-top-content p{
+    color:#444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/*section middle area here*/
+.section-middle{
+    margin-top: 150px;
+    padding: 80px;
+}
+
+.section-middle-top h1{
+    color:#151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.section-middle-bottom{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+.section-middle-bottom h2{
+    color:#151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-middle-bottom p{
+    color:#737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.one{
+    margin-left: 100px;
+}
+.two{
+    margin-left: 40px;
+}
+.three{
+    margin-left: 60px;
+}
+.four{
+    margin-left: 50px;
+}
+
+/*section bottom here*/
+.section-bottom{
+    background-image: url("images/watch.png");
+    background-size: cover;
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 150px;
+    padding-bottom: 10px;
+}
+.section-bottom-image{
+    background-image: url("images/gradient1.png");
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 10px;
+}
+.section-bottom-content h2{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.section-bottom-content button{
+    color: #005FAC;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px 45px;
+    margin-left: 30px;
+}
+
+
+/*footer area atyle here*/
+footer{
+    background-color: #151414;
+    padding-bottom: 50px;
+}
+.footer-main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+.footer-left{
+    margin-left: 50px;
+}
+.footer-left h1{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-left p{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer-right{
+    margin-right: 50px;
+}
+.footer-right h1{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 35px;
+}
+.footer-right input[type=email]{
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid white;
+    background-color: rgb(21, 20, 20);
+    padding: 15px 40px;
+
+}
+.footer-right input[type=submit]{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #005FAC;
+    padding: 20px 60px;
+    border: 1px solid #005FAC;
+    margin-top: 20px;
+}
